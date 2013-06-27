@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>忠信學年成績單</RootNamespace>
-    <AssemblyName>_97入學_普綜_學年成績單</AssemblyName>
+    <AssemblyName>_97入學_普綜_學年成績單_含名次判斷</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -37,7 +37,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\ischool source\ischool desktop\modules\SHEvaluation_Beta\</OutputPath>
+    <OutputPath>..\..\高中_ischool\Customize\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,31 +53,29 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words">
-      <HintPath>..\..\..\ischool_InsideTest\modules\SHSchoolLoader\Aspose.Words.dll</HintPath>
-    </Reference>
-    <Reference Include="DevComponents.DotNetBar2, Version=7.2.0.6, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+    <Reference Include="Aspose.Words, Version=4.4.1.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Intellischool\SmartSchool V0.00.16\SmartSchool\ischool\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
-    </Reference>
-    <Reference Include="SmartSchool.Common, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ischool_InsideTest\modules\SHSchoolLoader\SmartSchool.Common.dll</HintPath>
+      <HintPath>..\..\高中_ischool\modules\Campus\Aspose.Words.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SmartSchool.Common.DotNetBar, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ischool_InsideTest\modules\SHSchoolLoader\SmartSchool.Common.DotNetBar.dll</HintPath>
+      <HintPath>..\..\高中_ischool\components\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartSchool.Common">
+      <HintPath>..\..\高中_ischool\modules\SHSchoolLoader\SmartSchool.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SmartSchool.Customization.Data, Version=1.3.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ischool_InsideTest\modules\SHSchoolLoader\SmartSchool.Customization.Data.dll</HintPath>
+    <Reference Include="SmartSchool.Common.DotNetBar">
+      <HintPath>..\..\高中_ischool\modules\SHSchoolLoader\SmartSchool.Common.DotNetBar.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SmartSchool.Customization.PlugIn, Version=1.1.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ischool_InsideTest\modules\SHSchoolLoader\SmartSchool.Customization.PlugIn.dll</HintPath>
+    <Reference Include="SmartSchool.Customization.Data">
+      <HintPath>..\..\高中_ischool\modules\SHSchoolLoader\SmartSchool.Customization.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.Customization.PlugIn">
+      <HintPath>..\..\高中_ischool\modules\SHSchoolLoader\SmartSchool.Customization.PlugIn.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

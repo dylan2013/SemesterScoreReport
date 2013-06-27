@@ -21,7 +21,7 @@ namespace SemesterScoreReport
         {
             SemesterScoreReport semsScoreReport = new SemesterScoreReport();
 
-            string reportName = "97入學_普綜_學年成績單";
+            string reportName = "97入學_普綜_學年成績單（含名次判斷）";
             string path = "忠信高中";
 
             semsScoreReport.button = new ButtonAdapter();
@@ -763,7 +763,7 @@ namespace SemesterScoreReport
                     return v;
                 }
             }
-            return "";
+            return "N/A";
         }
 
         private void MailMerge_MergeField(object sender, Aspose.Words.Reporting.MergeFieldEventArgs e)

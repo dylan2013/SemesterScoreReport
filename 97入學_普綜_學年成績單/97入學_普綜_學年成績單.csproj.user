@@ -2,7 +2,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <StartAction>Program</StartAction>
-    <StartProgram>E:\ischool source\ischool desktop\ischooldiag.exe</StartProgram>
+    <StartProgram>C:\TFS2010-Git\高中_ischool\ischooldiag.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory />
